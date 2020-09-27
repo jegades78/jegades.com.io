@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jegades</title>
+	<style type="text/css">
+		.smooth{
+			position: relative;
+			width: 100%;
+			height: 100%;
+			scroll-behavior: smooth;
+			overflow-y: scroll;
+		}
+		.scrolls{
+			position: absolute;
+			top:50%;
+			right: 1.25em;
+			transform: translateY(-50%);
+			z-index: 2;
+			display: flex;
+			flex-direction: column;
+			align-content: center;
+			justify-content: center;
+			font-size: 2rem;
+		}
+		.scrolls .center{
+			font-size: 0.825rem;
+		}
+		body{
+			margin: 0px;
+			padding: 0px;
+			position: relative;
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+			height: 100vh;
+			line-height: 1.5;
+		}
+		ul{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul li{
+			float: left;
+			width: 200px;
+			height: 40px;
+			opacity: .8;
+			line-height: 40px;
+			text-align: center;
+			font-size: 20px;
+			margin-right: 2px;
+			display: inline-block;
+			background: linear-gradient(25deg,#CBD70F ,#9BE7F0);
+			border-radius: 50px;
+			box-sizing: border-box;
+			box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+		}
+		ul li a{
+			text-decoration: none;
+			color:white ;
+			display:block;
+		}
+		ul li a:hover{
+			background: linear-gradient(45deg,#1CD8DF,#EBC2F3);
+			background-color:#393738 ;
+			border-radius: 50px;
+		}
+		 ul li ul li {
+			display: none;
+		}
+		ul li:hover ul li{
+			display: block;
+		}
+		#bg{
+			width: 350px;
+			right:200px; 
+			position:sticky;
+			left: 100px;
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+			transform: translateY(-10%);
+			z-index: 2;
+		}
+	</style>
+</head>
+<body id="b">
+	<div class="smooth">
+	<body background="E:\my web\pexels-photo-132037.jpeg " style="background-repeat: no-repeat; background-size: cover; background-position: center; ">
+    <ul >
+    	<li><a href="home.html">Home</a></li>
+     	<li><a href="about.html">About me</a></li>
+     	<li><a>Contact</a>
+     		<ul>
+     			<li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNtfNHgVVkKFlSJGzKQDtsddwQFczsvvLTMqHSmrzpGxgbFkFXvKzpzKXTVPfqBjsDLjJV">Gmail</a></li>
+     			<li><a href="telL:+91 6383564779">Mobile</a></li>
+     		</ul>
+     	</li>
+     	<li><a>Social media</a>
+     	<ul>
+     		<li><a href="https://www.facebook.com/jegades.jegades.52">Facebook</a></li>
+     		<li><a href="https://www.instagram.com/jegades_/">Instagram</a></li>
+     		<li><a href="https://www.linkedin.com/in/jegadesan-v-73a51218b/">Linkedin</a></li>
+     		<li><a href="https://twitter.com/jegades02294202">Twitter</a></li>
+     	</ul>
+     	</li>
+    </ul>
+        <img src="E:\my web\images\IMG-20200201-WA0007-removebg.png" id="bg">
+    </div>
+</body>
+</html>
